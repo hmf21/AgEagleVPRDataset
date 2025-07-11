@@ -1,2 +1,2 @@
 # AgEagleVPRDataset
-This repository provides the re-organized AgEagle dataset for aerial-based VPR evaluation. The original datasets are publicly downloaded from the AgEagle website.
+The datasets provided by the AgEagle are suitable for the aerial-based VPR task. We collect the corresponding satellite map and make them a standard format for the VPR task evaluation.
