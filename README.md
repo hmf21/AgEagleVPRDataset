@@ -31,7 +31,7 @@ The structure of provided dataset is the same as the other aerial-based geo-loca
             └── @query_index@longitude@latitude@.png
 ```
 
-The retrieval positive radius is set to 100 meters and the distance can be calculated by the coordinates of the image.
+The retrieval positive radius is set to 200 meters and the distance can be calculated by the coordinates of the image.
 
 ## baseline
 We also simply tested the performance of the SOTA method on this dataset as the baseline. The selected method is SALAD and we retrained this model with a self-collected training dataset.
@@ -40,7 +40,7 @@ The retrieval recalls are given in the table below:
 
 | Name | Method | R@1 | R@5 | R@10 |
 |---------|---------|---------|---------|---------|
-| University_campus   | SALAD(retrained)   | 32.28 | 57.11 | 69.07 |
+| University_campus   | SALAD(retrained)   | 51.02 | 72.69 | 81.04 |
 
 ## acknowledgements
 Part of the AgEagle dataset is used in our previous work. And if you find this dataset useful for your research, please consider citing the paper:
