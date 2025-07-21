@@ -8,7 +8,7 @@ The original datasets are publicly downloaded from the AgEagle website at [this 
 Currently, there are several datasets suitable for the aerial-based VPR task, as illustrated below:
 
 | Name | Num.Qr | Num.Db | Charac. | Status | 
-|---------|---------|---------|---------|
+|---------|---------|---------|---------|---------|
 | University_campus   | 443  | 3036  | Various Orientation  | Completed |
 | Industrial_estate   | 277  | 1665  | Thermal Image   | Completed |
 | Village_switzerland   | 297  | 2300  | Farmland Scene   | Completed |
