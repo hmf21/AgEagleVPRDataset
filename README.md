@@ -7,10 +7,11 @@ The original datasets are publicly downloaded from the AgEagle website at [this 
 
 Currently, there are several datasets suitable for the aerial-based VPR task, as illustrated below:
 
-| Name | Num.Qr | Charac. | Status | 
+| Name | Num.Qr | Num.Db | Charac. | Status | 
 |---------|---------|---------|---------|
-| University_campus   | 443   | Various Orientation  | Completed |
-| Industrial_estate   | 277   | Thermal Image   | In Progress |
+| University_campus   | 443  | 3036  | Various Orientation  | Completed |
+| Industrial_estate   | 277  | 1665  | Thermal Image   | Completed |
+| Village_switzerland   | 297  | 2300  | Farmland Scene   | Completed |
 
 
 ## how to use
@@ -41,6 +42,8 @@ The retrieval recalls are given in the table below:
 | Name | Method | R@1 | R@5 | R@10 |
 |---------|---------|---------|---------|---------|
 | University_campus   | SALAD(retrained)   | 51.02 | 72.69 | 81.04 |
+| Industrial_estate   | SALAD(retrained)   | 84.48 | 93.14 | 94.95 |
+| Village_switzerland   | SALAD(retrained)   | 75.42 | 94.95 | 97.98 |
 
 ## acknowledgements
 Part of the AgEagle dataset is used in our previous work. And if you find this dataset useful for your research, please consider citing the paper:
