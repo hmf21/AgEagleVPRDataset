@@ -9,9 +9,11 @@ Currently, there are several datasets suitable for the aerial-based VPR task, as
 
 | Name | Num.Qr | Num.Db | Charac. | Status | 
 |---------|---------|---------|---------|---------|
-| University_campus   | 443  | 3036  | Various Orientation  | Completed |
-| Industrial_estate   | 277  | 1665  | Thermal Image   | Completed |
-| Village_switzerland   | 297  | 2300  | Farmland Scene   | Completed |
+| University_campus   | 443  | 2720  | Various Orientation  | Completed |
+| Industrial_estate   | 277  | 775  | Thermal Image   | Completed |
+| Village_switzerland   | 297  | 1845  | Farmland Scene   | Completed |
+
+Notably, the database is sampled with overlapping and suitable size.
 
 
 ## how to use
@@ -37,12 +39,12 @@ The retrieval positive radius is set to 200 meters and the distance can be calcu
 ## baseline
 We also simply tested the performance of the SOTA method on this dataset as the baseline. The selected method is SALAD and we retrained this model with a self-collected training dataset.
 
-The retrieval recalls are given in the table below:
+Under the setting of 100m positive radius, the retrieval recalls are given in the table below:
 
 | Name | Method | R@1 | R@5 | R@10 |
 |---------|---------|---------|---------|---------|
-| University_campus   | SALAD(retrained)   | 51.02 | 72.69 | 81.04 |
-| Industrial_estate   | SALAD(retrained)   | 84.48 | 93.14 | 94.95 |
+| University_campus   | SALAD(retrained)   | 29.57 | 55.76 | 65.46 |
+| Industrial_estate   | SALAD(retrained)   | 74.01 | 90.25 | 93.14 |
 | Village_switzerland   | SALAD(retrained)   | 75.42 | 94.95 | 97.98 |
 
 ## acknowledgements
