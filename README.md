@@ -43,9 +43,9 @@ Under the setting of 100m positive radius, the retrieval recalls are given in th
 
 | Name | Method | R@1 | R@5 | R@10 |
 |---------|---------|---------|---------|---------|
-| University_campus   | SALAD(retrained)   | 29.57 | 55.76 | 65.46 |
-| Industrial_estate   | SALAD(retrained)   | 74.01 | 90.25 | 93.14 |
-| Village_switzerland   | SALAD(retrained)   | 75.42 | 94.95 | 97.98 |
+| University_campus(200m)   | SALAD(retrained)   | 45.82 | 67.04 | 75.85 |
+| Industrial_estate(100m)   | SALAD(retrained)   | 74.01 | 90.25 | 93.14 |
+| Village_switzerland(200m)   | SALAD(retrained)   | 75.42 | 94.95 | 97.98 |
 
 ## acknowledgements
 Part of the AgEagle dataset is used in our previous work. And if you find this dataset useful for your research, please consider citing the paper:
