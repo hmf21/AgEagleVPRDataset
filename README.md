@@ -39,13 +39,13 @@ The retrieval positive radius is set to 200 meters and the distance can be calcu
 ## baseline
 We also simply tested the performance of the SOTA method on this dataset as the baseline. The selected method is SALAD and we retrained this model with a self-collected training dataset.
 
-Under the setting of 100m positive radius, the retrieval recalls are given in the table below:
+Under the setting of certain positive radius (following the names of the datasets), the retrieval recalls are given in the table below:
 
 | Name | Method | R@1 | R@5 | R@10 |
 |---------|---------|---------|---------|---------|
 | University_campus(200m)   | SALAD(retrained)   | 45.82 | 67.04 | 75.85 |
 | Industrial_estate(100m)   | SALAD(retrained)   | 74.01 | 90.25 | 93.14 |
-| Village_switzerland(200m)   | SALAD(retrained)   | 75.42 | 94.95 | 97.98 |
+| Village_switzerland(100m)   | SALAD(retrained)   | 75.42 | 94.95 | 97.98 |
 
 ## acknowledgements
 Part of the AgEagle dataset is used in our previous work. And if you find this dataset useful for your research, please consider citing the paper:
